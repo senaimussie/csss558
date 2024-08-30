@@ -31,7 +31,7 @@ body {
 }  
 .navbar a:hover {  
     background-color: #575757;
-    border-radius: 50%;  
+    border-radius: 25%;  
 }  
 Video {  
     position: fixed;   
@@ -68,12 +68,14 @@ Video {
         color: white;  
         border: none;  
         font-size: 25px;  
-        border-radius: 5px;  
+        border-radius: 14px;  
         cursor: pointer;  
+        width: 300px;
     }  
     
     .contact input[type="button"]:hover {  
         background-color: #0056b3; 
         border: 50%; 
+        width: 50;
     }
     
